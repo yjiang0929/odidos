@@ -29,6 +29,7 @@
 				<li><a href="needAnalysis.html">Need Analysis Phase</a></li>
 				<li><a href="designDevelopment.html">Design Development Phase</a></li>
 				<li><a href="designRefinement.html">Design Refinement Phase</a></li>
+				<li><a href="finalRefinement.html">Final Refinement Phase</a></li>
 			</ul>
 		</nav>
 
@@ -42,7 +43,70 @@
 								<h1>Design Development Phase</h1>
 								<p>This is where we created paper prototype designs that addressed the needs of our users. </p>
 							</header>
+							<h3>Our Design</h3>
+							<p>Our design is centered around the clarity of decisions and choices. For example, instead of a five star rating system we instead present the user with four different categories to rate the ride experience on. We did this because a traditional five star rating system limits the user on giving feedback on specific aspects of the ride. By providing categories, the user has more clarity about what they are giving feedback on. Detailed explanation of our design decisions are in the “How does it work?” section.</p>
+							<div class="image">
+								<img src="images/designdev_app1.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app2.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app3.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app4.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app5.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app6.jpg" alt="" width="400" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designdev_app7.jpg" alt="" width="400" /></a>
+							</div>
 
+							<h3>Functionality & Usability Overview</h3>
+							<p>Our app works by focusing on the accessibility of the user. We enable a zero fluff design that allows the rider to choose between their prefered method of input. To start, we have a voice or text input tab that users can choose between. Allowing our rider to easily plug in text or simply tell the platform where they want to go and it’ll handle the rest for them. A lot of senior citizens struggle with text input on mobile devices and get frustrated with persistent errors. By providing an alternative voice input option we simplify the process and allow require less work from the user. From the input screen we have a verification pop up. This allows the user to see what the system registered from their input in big, bold text that is clear to any users eyes. This limits errors an asserts confidence to the users. During the waiting process the screen provides only information that is essential to the user while also providing the option to update or cancel the trip. This again plays along with our overall focus on simplicity. The clearer our information is to the user the easier our platform is to use and the less errors will occur. This also holds true during the riding screen as well as the “trip complete” screen. We provide only the information that is needed to make the rider feel in control while not overwhelming the user. This again minimizes errors and allows for the best user experience that we can.
+							</p>
+
+							<h3>Design & User Needs</h3>
+							<p><b>Order Input Page:</b> As the very first page users will see when inputting ride orders, this page meets our users’ needs by having a concise and easy (front-end) mechanism that minimizes the possibility of confusion and input error. When speaking with interviewees from the user groups, we noticed that all users (even “Techie Tim”) did not choose “keyboard” as their primary text input method, whereas they either chose “hand-writing” or “voice” as their most-frequently-used input method. Thus, for our app, we also strived to minimize avoid the frustration with finger movement, so users can also simply speak out order details, and the backend would transfer the data into order input.</p>
+							<p><b>Order Confirmation Page:</b> based on the takeaways from the reading on accessibility (particularly “Understandability” and “Predictability”), the order confirmation page follows a very conventionally and universally understandable layout, considering that is one of the most important and informationally intensive pages. Section titles are bolded and enlarged to navigate their eyes through text bodies. The architecture of information also strive to help with the navigation. The only use of icon on this page, for “Handicap Needs”, make sense to our users needs as the use of icon provides an emphasis on the page and alerting them for the available options.</p>
+							<p><b>Finding Your Ride Page:</b> this page meets our user needs by allowing users to change info if they spot an error for destination or pickup, serving as a “secondary” order confirmation page. The use of buttons on this page echoes the consistency on the “shadow-off-set” style, therefore clearly indicating users that they have the option to change their order input at this point as well.</p>
+							<p><b>Drive On The Way Page:</b> this page meets the users needs that it concisely provides all the info they may need to understand where the driver is, who is the driver, what cars are they driving, as well as providing the option to cancel this ride. Through the interviews with out potential users groups, we notice that both “Rose” and “Grumpy George” adored the idea of having a visual representation of the car. Moreover, both have trouble input information with the use of map. “Rose” was not even aware that she could enlarge the map with two fingers. Thus, we decided through observation that, for our user group, “map” should only be used as an information outlet rather than an input method — which tackles the particular needs of our user group. </p>
+							<p><b>En-Route Page:</b> the two enlarged buttons on this page precisely tackles the two primary needs users have while they are en-route: “call for emergency” and “change destination”. The use of bright red on the “911 button” follows a universal symbol of emergency indication. Similar to the use of maps on the previous page, the may on this page also only serves as an output of info, allowing the users to know where they are in the process of the route. One of the important feedback we received from the post-design interviews is that we should also have a visual indication of the process (percentile completed in the form of a progress bar) on this page, in addition to the “time to destination.</p>
+							<p><b>Rating & Review:</b> inspired by Amon, we realized that it is unfair and inaccurate to have a single score for users to rate their overall experience. Thus, on this page, we broke down the key aspects of service quality and allows user to rate on a “3-star” system instead of 5. This design meets the users’ needs to rate particular aspect and will be incredibly helpful for drivers to improve their future service quality as the system provides them active feedback on particular aspects.</p>
+
+							<h3>Alternatives Experimented</h3>
+							<p>We considered and created three sketch designs before we settled down. </p>
+							<div class="image">
+								<img src="images/designdev_alter.jpg" alt="" width="800" class="rotateimg270" /></a>
+							</div>
+							<p>In the first design, we noticed that one of our personas, Rose Slowman is not familiar with modern app interface and usually has trouble typing on her phone. To make the software interface more usable for user, the app allows and only allows users to verbally input their destination. The reason that we didn’t fully adopt this interface in our final design is that we realized that our persona Techie Tim would prefer a more direct text input method. To satisfy the needs from both personas, we decided to create a switch button for text or voice input to accommodate for both input styles.</p>
+							<p>The second design focused the idea of family members helping the user schedule rides. Family members would have a sister app which allows family to schedule rides and enter addresses for the user. This way, when the user is having trouble entering input into the application, they can have family help them out. Ultimately though, we did not pursue this design idea because it seemed logistically messy when we started to think about issues such as who would be responsible for payment.</p>
+							<p>The last design that we had focused on the idea of increasing transparency between users and drivers and reporting issues about the ride-sharing experience. From our interaction with Grumpy George, we found out that he usually has things to complain about from his ride, but the existing software interfaces don’t allow him to express his opinions. We realized that a large part of this comes from the lack of transparency between the driver and the rider. When George is hailing for a ride, he doesn’t know if the driver is focused on getting to him and blames late arrivals on the driver instead of situations like a traffic jam. In our design, we incorporated a camera in front of the driver’s seat for the user to see the driver in action, and also in big screens, show the live map and type of car that the driver is in. We also implemented highly visible “Report” and “Call” buttons to facilitate these actions from the users. We didn’t fully adopt this design because we think this could potentially be intrusive to the drivers’ privacy but we kept the report functionalities in our final design because we think that is key to our persona Grumpy George. </p>
+							<p>Ultimately we tried to combine elements from our first and last sketch ideas into our design. Our current design incorporates both voice inputs and elaborated feedback, which came from our sketches. </p>
+
+							<h3>Key Insights</h3>
+							<p>We learned that color is a powerful tool in guiding the users through the interface. An interface that is text-heavy and colorless is hard for the elderly, or any user to navigate. By incorporating more color in our design, we can provide feedback to user’s action and make the interaction more fluid.</p>
+							<p>It is important to make conscious decisions about what elements are and are not interactable. In our design, a key decision we made was for the map to not be an input, even though in other prominent ride-sharing apps it is.</p>
+							<p>The importance of voice input and the accuracy of it. Being aware that we need to make sure the user verifies all the information our voice platform develops. This has the ability to streamline the process and be a crucial help to our user but it also has the ability to drastically hinder the success of our platform.</p>
+							
+							<h3>Appendix</h3>
+							<p>Feature brainstorming:</p>
+							<div class="image">
+								<img src="images/designdev_feature.jpg" alt="" width="600" /></a>
+							</div>
+							<p>Background research of other ride-sharing apps:</p>
+							<div class="image">
+								<img src="images/designdev_otherapp.jpg" alt="" width="600" /></a>
+							</div>
+							<p>Sketch model of our app interface:</p>
+							<div class="image">
+								<img src="images/designdev_sketchmodel.jpg" alt="" width="600" class="rotateimg270"/></a>
+							</div>
 						</div>
 					</section>
 
@@ -51,7 +115,7 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="copyright">
-					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>.</p>
+					<p>&copy; Untitled. All rights reserved. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Unsplash</a>. Made by Yichen Jiang</p>
 				</div>
 			</footer>
 
