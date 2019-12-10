@@ -29,6 +29,7 @@
 				<li><a href="needAnalysis.html">Need Analysis Phase</a></li>
 				<li><a href="designDevelopment.html">Design Development Phase</a></li>
 				<li><a href="designRefinement.html">Design Refinement Phase</a></li>
+				<li><a href="usabilityStudy.html"> Formal Usability Study</a></li>
 				<li><a href="finalRefinement.html">Final Refinement Phase</a></li>
 			</ul>
 		</nav>
@@ -43,7 +44,68 @@
 								<h1>Design Refinement Phase</h1>
 								<p>This is where refined our interface design with a computerized prototype that is responsive and professional. </p>
 							</header>
+							<h3>Overview</h3>
+							<p>Our design is a customer facing application for a ride-sharing service aimed at elderly riders. It aims to make the process simple and easy to understand for elderly riders. It achieves this by making the ride-sharing experience as linear as possible, communicating which choices have been made clearly through visual consistency, text stylization and intentional positioning. A user can order ride information through two ways, text or voice. Which option the user is currently using is communicated through a large central text-voice slider at the top of the screen. Whenever user input is needed, this slider is present and visually consistent with all other pages in the design. When using voice input, there is visual feedback showing that the voice is being actively recorded. This and other design choices were included to ensure that the user, who may have trouble using mobile phones, can confidently know when they are giving input to the device. </p>
+							<div class="image">
+								<img src="images/designref_1.png" alt="" width="200" /></a>
+							</div>
+							<div class="image">
+								<img src="images/designref_2.png" alt="" width="200" /></a>
+							</div>
+							<p>There are several features that are made more prominent in our design than in applications such as Uber or Lyft. These are the ability to add special needs to ride requests, more detailed ride feedback, and an easy to access emergency button inside the app. The motivation for these features can be found in our Design Development document.</p>
+							<p>Cognitive Walkthrough Tasks:</p>
+							<ul style="list-style-type:circle;">
+								<li>The user is doing a regular ride request.</li>
+								<li>The user wants to add special needs to ride request.</li>
+								<li>The user wants to give ride feedback after a ride is completed.</li>
+								<li>The user needs to use the emergency button during ride (ex. You feel some chest pressure but you don’t want to call 911).</li>
+								<li>The user accidentally pressed the 911 button but didn’t mean to.</li>
+							</ul>
 
+							<h3>Significant Changes</h3>
+							<p>The majority of changes between paper prototype and the current proposed design centers around visual consistency and giving confidence to users. An example of a change for the sake of visual consistency can be found on the voice confirmation page of our design. In our paper prototype the voice input pages visually differed from the text input pages. We changed the voice input confirmation page so that it would have a similar visual layout to the text confirmation page, while maintaining the voice-text slider at the topic to clearly indicate which input method the user is currently using.</p>
+							<p>Another change we made was to our ride search screen. In our current design, we show nearby drivers while a ride is being searched for. This is to give confidence to the user that the app is actually finding a driver, and not just frozen or doing nothing.</p>
+							<div class="image">
+								<img src="images/designref_3.png" alt="" width="200" /></a>
+							</div>
+							<p>Another small but important change we made was to how special requests are entered on the app. We made these changes in order to make it more visually clear where special requests are entered and what the user’s current special requests are. This was important to do because a special request, such as a wheelchair, significantly changes a ride-sharing experience and is not something that should be accidentally left out or accidentally added on.</p>
+							<p>Finally, a very important change we made was to our emergency call page. On our paper prototype, when the emergency button was pressed during a ride, emergency services such as 911 was automatically called. On this proposed design, pressing the emergency button instead brings the user to a separate page where they can clarify the emergency, or cancel the emergency call in the case where the button was pressed accidentally.</p>
+
+							<h3>Tradeoff Made From Analog to Online Prototype</h3>
+							<p><b>Autonomy & Fidelity (Pros of Online):</b> the biggest advantage of bringing the prototype online is that it allows the demo to have a higher fidelity and gives users more autonomy. Unlike paper prototype, we do not need to manually flip through the pages and struggle to find the correct linkage between pages anymore. Users are also able to have a more accurate and wholesome experience as the online version clearly indicates when the click and what comes next.</p>
+							<p><b>Interactiveness (Cons of Online):</b> when constructing the prototype on our online platform of choice, Figma, we realized that we are unable to do most of the animation and transition that works in our paper prototype. With the paper prototype, we are able to simulate motions such as “spinning”, “sliding”, “flipping”, etc, which largely increased the responsiveness and interactiveness of the demo. When switched to the online version, although the online prototype gives user more autonomy and provides higher fidelity, the prototype lost a considerable degree of interactiveness and had a “slide-show” feel to it.</p>
+							<p><b>Mobility (Pros of Online):</b> the online prototype allows users to access the prototype anytime and anywhere, without little manpower and assistance. Thus, the online prototype gives us the ability to reach more users for their feedback.</p>
+
+							<h3>Down-scoping</h3>
+							<p>Interaction with users and prototyping for both online and offline allowed us to have a more realistic understanding of our capabilities and a feasible scale of the project. After carefully evaluation against the time constraint and complication, we decided to focus entirely on the user-end of the interfacing, meaning that we are neglecting the driver-end of the interface.</p>
+
+							<h3>User Feedback to Paper Prototype</h3>
+							<p>We conducted 2 interviews with our potential users with the paper prototype. Overall, they are fascinated with the expressiveness of the paper prototype. However, as the transition for paper prototype requires some manual transition time, they did experience a rather frequently disrupted flow. Their most notable feedback is listed below:</p>
+							<ul style="list-style-type:circle;">
+								<li>Have a consistent and clear of color-coding the buttons so that they standout and prevents user error;</li>
+								<li>There is a general lack of “pricing” information in the app; users demand that they should be able to know the price they are paying clearly and at all stages of the ordering process;</li>
+								<li>The emergency butter needs to be more carefully designed to prevent user error;</li>
+								<li>There needs to be certain active response when the users is inputting the voice.</li>
+							</ul>
+
+							<h3>Responses to Team-internal Deliberations</h3>
+							<p>We had many internal discussions about a variety of our design’s features. One element of our design that our team deliberated on was the emergency button. We had to balance two main factors for the button; we wanted 911 to be easy to call in the case of an emergency, but we also did not want the user to accidentally press 911 because the emergency button was too big or easy to accidentally tap. This possible issue was mentioned to us by another team, and also came up in our cognitive walkthrough. The solution we came up with was that the emergency button is very visible and fairly large, but brings the user to a separate emergency page, where there is a period of time in which the user can cancel the emergency call. </p>
+
+							<h3>Responses to Heuristic Evaluation Feedback</h3>
+							<p>Overall we had no negative responses to oof Whites feedback. It was all important points about making the platform more informative for the user. The following were all examples of this</p>
+							<ul style="list-style-type:circle;">
+								<li>“Cancel ride button” - There is no confirmation page or information section about what will happen when you cancel. Will the user be charged?</li>
+								<li>“Talk or Text” - Clarify the process of using the text input or the talk input. Confuses the user on the status of their progress in the app and what they need to do as well as how to do it.</li>
+								<li>“Driver on the way” - The page doesn’t show the time the driver will arrive or where exactly they are driving.</li>
+								<li>“Emergency Button” - Doesnt say what is going to happen or how to do it. WIll it call 911? Do you have to hold it down for 5 seconds? Do you have to swipe it?</li>
+							</ul>
+							<p>We agree with all of these and plan to make the necessary changes to the interface. They play into the following heuristic criteria, H1 - Visibility of System Status, H3 - User Control & Freedom, and H5 - Error Prevention. All three of which could be argued as the most important for us to follow since our user base is elders who are less inept to function technology. Making out platform straightforward and simple while still making every step/function informative is of huge importance for us. It will help prevent or reduce user errors or problems and allow us to achieve a simpler more natural interface while being as seamless as possible. WE were accepting and in agreeance with all of Oof Whites feedback.</p>
+
+							<h3>Key Insights</h3>
+							<p>The four concerns stated above were Oof Whites main points. After we walked through the interface with them, we saw and understood the accuracy of these remarks and the importance to fix them. They were simple oversights but being the creators it is easy to see how we could have missed them. In our heads the answers to all of their questions / concerns are clear but to the user they are not. We failed to see the application from the user's perspective to catch these oversights. This is the biggest insight we gained during this phase. The importance to put yourself in the users shoes and approach the interface as if you had no prior experience with it. If we had done this we would have been able to catch and fix all of teh problems Oof White brought up.</p>
+
+							<h3>Questions & Shortcomings</h3>
+							<p>A possible shortcoming of our project is our heavy reliance on a “magical backend” which has perfectly accurate voice recognition. How to deal with incorrect voice recognition from a user experience perspective is a point on which we can expand our project. Previously, we purposively ignored any problems that relying on a “magical backend” might have so we could flesh out the base functionality to our design, but now it is something that we can revisit.</p>
 						</div>
 					</section>
 
